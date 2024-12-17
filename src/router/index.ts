@@ -19,6 +19,11 @@ const routes = [
         redirect: '/fastLoader'
     },
     {
+        path: '/screen',
+        meta: { title: '大屏可视化' },
+        component: () => import('../views/screen/index.vue')
+    },
+    {
         path: '/',
         component: Home,
         meta: { title: '首页' },
