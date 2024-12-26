@@ -16,7 +16,7 @@ const NotFound = () => import(/* webpackChunkName: "notfound" */ '../views/NotFo
 const routes = [
     {
         path: '/',
-        redirect: '/fastLoader'
+        redirect: '/screen'
     },
     {
         path: '/screen',

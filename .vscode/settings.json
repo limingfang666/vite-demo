@@ -1,0 +1,45 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "html.autoClosingTags": true,
+    "javascript.autoClosingTags": true,
+    "typescript.autoClosingTags": true,
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "editor.linkedEditing": true,
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+      "editor.unicodeHighlight.ambiguousCharacters": false,
+      "editor.unicodeHighlight.invisibleCharacters": false,
+      "diffEditor.ignoreTrimWhitespace": false,
+      "editor.wordWrap": "on",
+      "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+      },
+      "cSpell.fixSpellingWithRenameProvider": true,
+      "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+      "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/",
+      "files.trimTrailingWhitespace": false
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "always"
+      }
+    },
+    "cSpell.words": ["jopens", "VITE"],
+    "editor.rulers": [80],
+    "files.autoSave": "off",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always"
+    },
+    "typescript.preferences.importModuleSpecifier": "shortest",
+    "javascript.preferences.importModuleSpecifier": "shortest",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "px-to-vw.viewportWidth": 375,
+    "files.eol": "\n"
+  }
