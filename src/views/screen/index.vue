@@ -1,21 +1,22 @@
 <template>
- <div class="w-full h-full" id="map" ref="mapRef"></div>
+  <div class="w-full h-full">
+    <LeafletMap :center="center"></LeafletMap>
+    <ScreenWrap></ScreenWrap>
+  </div>
 </template>
 <script setup lang="tsx">
+import LeafletMap from '@/components/LeafletMap/Index.vue';
+import ScreenWrap from '@/components/ScreenWrap/Index.vue';
 
-import L from 'leaflet';
-import { ref } from 'vue';
-
-const mapRef = ref();
-
-const map = L.map(mapRef.value).setView([51.505, -0.09], 13);
-
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(map);
-
+const center = [38.077193, 101.723226];
 </script>
 <style lang="scss" scoped>
-
+.leaflet-map {
+  filter: brightness(72%) contrast(205%) sepia(244%) saturate(136%) invert(100%);
+  outline: 5px solid transparent;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
 </style>

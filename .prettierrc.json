@@ -1,0 +1,33 @@
+{
+  "semi": true,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "vueIndentScriptAndStyle": false,
+  "jsxSingleQuote": true,
+  "bracketSameLine": false,
+  "arrowParens": "always",
+  "htmlWhitespaceSensitivity": "ignore",
+  "endOfLine": "auto",
+  "singleAttributePerLine": false,
+  "importOrder": [
+    "^vue$",
+    "<THIRD_PARTY_MODULES>",
+    "^@/plugins/(.*)$",
+    "^@/router/(.*)$",
+    "^@/layouts/(.*)$",
+    "^@/permission/(.*)$",
+    "^@/components/(.*)$",
+    "^@/hooks/(.*)$",
+    "^@/store/(.*)$",
+    "^@/utils/(.*)$",
+    "^@/constant/(.*)$",
+    "^@/api/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": false,
+  "importOrderSortSpecifiers": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"]
+}
