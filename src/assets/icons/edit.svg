@@ -1,0 +1,8 @@
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon">
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M7.5 1H3C1.89543 1 1 1.89543 1 3V11C1 12.1046 1.89543 13 3 13H11C12.1046 13 13 12.1046 13 11V6.5H12V11C12 11.5523 11.5523 12 11 12H3C2.44772 12 2 11.5523 2 11V3C2 2.44772 2.44772 2 3 2H7.5V1Z" fill="#D1D5DD"/>
+<circle id="Ellipse 436" cx="7.5" cy="1.5" r="0.5" fill="#D1D5DD"/>
+<circle id="Ellipse 437" cx="12.5" cy="6.5" r="0.5" fill="#D1D5DD"/>
+<rect id="Rectangle 6009" x="6.37113" y="7.27563" width="8.91166" height="0.5" rx="0.25" transform="rotate(-45 6.37113 7.27563)" stroke="#D1D5DD" stroke-width="0.5"/>
+</g>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon">
+<rect id="Rectangle 6697" x="0.5" y="0.5" width="15" height="15" rx="1.5" fill="#333333" stroke="#333333"/>
+<path id="Rectangle 6698" d="M4 15C4 14.4477 4.44772 14 5 14H11C11.5523 14 12 14.4477 12 15V16H4V15Z" fill="#999999"/>
+<g id="Group 256">
+<rect id="Rectangle 72" x="4.5" y="13.5" width="10" height="7" rx="0.5" transform="rotate(-90 4.5 13.5)" stroke="white"/>
+<rect id="Rectangle 76" x="6.25" y="10.25" width="3.5" height="0.5" stroke="white" stroke-width="0.5"/>
+<rect id="Rectangle 77" x="6.25" y="8.25" width="3.5" height="0.5" stroke="white" stroke-width="0.5"/>
+<rect id="Rectangle 78" x="6.25" y="6.25" width="3.5" height="0.5" stroke="white" stroke-width="0.5"/>
+<path id="Rectangle 73" d="M6 4L6 2.37838C6 2.16941 6.16941 2 6.37838 2L9.62162 2C9.83059 2 10 2.16941 10 2.37838L10 4L6 4Z" fill="white"/>
+</g>
+</g>
+</svg>
